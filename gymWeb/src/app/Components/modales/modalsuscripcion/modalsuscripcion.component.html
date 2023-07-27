@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción</title>
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="ModalSuscripcion" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        Agregar Suscripción
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputMiembro" class="form-label">Miembro</label>
+                            <select [(ngModel)]="suscripModel.idMiembro" name="idMiembro" class="form-select">
+                                <option value="0" selected>Selecciona un miembro</option>
+                                <option *ngFor="let item of miembros" [ngValue]="item.idMiembro">{{item.nombre}}</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputServicio" class="form-label">Servicio</label>
+                            <select [(ngModel)]="suscripModel.idServicio" name="idServicio" class="form-select">
+                                <option value="0" selected>Selecciona un servicio</option>
+                                <option *ngFor="let item of servicios" [ngValue]="item.idServicio">{{item.nombre}}</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" (click)="btnAgregar()">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

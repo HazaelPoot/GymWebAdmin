@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="ModalServicio" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        {{ add ? 'Agregar Servicio' : 'Editar Servicio' }}
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row">
+                        <div class="col-sm-8">
+                            <div class="row g-3">
+                                <div class="col-md-12">
+                                    <label for="inputNombre" class="form-label">Nombre del Servicio</label>
+                                    <input name="nombre" [(ngModel)]="servicioModel.nombre" type="text" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputNombre" class="form-label">Costo</label>
+                                    <input name="costo" [(ngModel)]="servicioModel.costo" type="text" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputNombre" class="form-label">Foto</label>
+                                    <input (change)="capturarPhoto($event)" type="file" accept="image/*" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <img [src]="servicioModel.urlImagen" alt="Imagen" class="img-fluid" height="173"
+                                width="181">
+                        </div>
+                        <div class="col-sm-12 g-3">
+                            <label for="inputNombre" class="form-label">Detalles del Servicio</label>
+                            <textarea name="detalles" [(ngModel)]="servicioModel.detalles" class="form-control" rows="2"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" (click)="add ? btnGuardar() : btnActualizar()">
+                        {{ add ? 'Agregar' : 'Actualizar' }}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

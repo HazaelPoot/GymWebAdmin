@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios</title>
+</head>
+<body>
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 80%;">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <h5 class="card-title fw-semibold mb-4">Horarios</h5>
+                    <button (click)="enviarValor(0)" class="btn btn btn-success m-1" data-bs-toggle="modal" data-bs-target="#ModalHorario">
+                        Agregar <i class="ti ti-circle-plus"></i>
+                    </button>
+                </div>
+                <p class="mb-0">Agrega los dias y horarios de servicio de tu Gimnasio</p>
+                <app-modalhorario></app-modalhorario>
+                <br>
+                <div class="table-responsive">
+                    <table class="table text-center">
+                      <thead class="text-dark">
+                        <tr>
+                          <th>
+                            <h6 class="fw-semibold">Día</h6>
+                          </th>
+                          <th>
+                            <h6 class="fw-semibold">Abre</h6>
+                          </th>
+                          <th>
+                            <h6 class="fw-semibold">Cierra</h6>
+                          </th>
+                          <th>
+                            <h6 class="fw-semibold">Acciones</h6>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- Dinamico -->
+                        <tr *ngFor="let item of horarios">
+                          <td>
+                            <h6 class="fw-normal">{{item.diaSemana}}</h6>
+                          </td>
+                          <td>
+                              <h6 class="fw-normal">{{item.horaInicio}}</h6>                       
+                          </td>
+                          <td>
+                            <h6 class="fw-normal">{{item.horaFin}}</h6>
+                          </td>
+                          <td class="p-0">
+                            <div class="d-inline">
+                                <button (click)="enviarValor(item.idHorario)" class="btn btn-secondary m-2" data-bs-toggle="modal" data-bs-target="#ModalHorario">
+                                  <i class="ti ti-edit"></i>
+                                </button>
+                                <button (click)="btnDelete(item.idHorario)" class="btn btn-danger">
+                                  <i class="ti ti-trash-x"></i>
+                                </button>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <app-spinner></app-spinner>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Miembros</title>
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="ModalMiembro" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        Crear Miembro
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputNombre" class="form-label">Nombres</label>
+                            <input [(ngModel)]="miembroModel.nombre" name="nombre" type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputApellido" class="form-label">Apellidos</label>
+                            <input [(ngModel)]="miembroModel.apellido" name="aprellido" type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEdad" class="form-label">Edad</label>
+                            <input [(ngModel)]="miembroModel.edad" name="edad" type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputContacto" class="form-label">Telefono</label>
+                            <input [(ngModel)]="miembroModel.contacto" name="contacto" type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCorreo" class="form-label">Correo</label>
+                            <input [(ngModel)]="miembroModel.correo" name="correo" type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassw" class="form-label">Contraseña</label>
+                            <input [(ngModel)]="miembroModel.passw" name="passw" type="password" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputconfirmClave" class="form-label">Confirmar Contraseña</label>
+                            <div class="password-input">
+                                <input name="confirmClave" [(ngModel)]="confirmClave" class="form-control" type="{{ showPassword ? 'text' : 'password' }}">
+                                <i class="{{ showPassword ? 'ti ti-eye-off' : 'ti ti-eye' }}" (click)="btnShowPassword()"></i>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" (click)="btnGuardar()">Agregar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

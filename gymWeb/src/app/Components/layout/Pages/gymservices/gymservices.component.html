@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between">
+                <h5 class="card-title fw-semibold mb-4">Servicios</h5>
+                <button (click)="enviarValor(0)" class="btn btn btn-success m-1" data-bs-toggle="modal" data-bs-target="#ModalServicio">
+                    Agregar <i class="ti ti-circle-plus"></i>
+                </button>
+            </div>
+            <p class="mb-0">Agrega los servicios que ofrece tu Gimnasio</p>
+        </div>
+        <app-modalservicio></app-modalservicio>
+    </div>
+    
+    <div class="row">
+        <div *ngFor="let item of servicios" class="col-sm-6 col-xl-3">
+            <div class="card overflow-hidden rounded-2">
+                <div class="position-relative">
+                    <img [src]="item.urlImagen" height="250"
+                        class="card-img-top rounded-0" alt="...">
+                </div>
+                <div class="card-body pt-3 p-4">
+                    <h6 class="fw-semibold fs-5">{{item.nombre}}</h6>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h6 class="fw-semibold fs-4 mb-0">${{item.costo}}
+                            <span class="ms-2 fw-normal text-muted fs-3">Mensual</span>
+                        </h6>
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-between">
+                        <button (click)="enviarValor(item.idServicio)" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ModalServicio">
+                            Editar <i class="ti ti-edit"></i>
+                        </button>
+                        <button (click)="btnDelete(item.idServicio)" class="btn btn-outline-danger">
+                            Eliminar <i class="ti ti-trash-x"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-spinner></app-spinner>
+    </div>
+</body>
+</html>

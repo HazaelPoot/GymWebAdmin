@@ -1,0 +1,154 @@
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\appsettings.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.exe
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.deps.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.runtimeconfig.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Firebase.Auth.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Firebase.Storage.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Application.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Domain.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Application.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Infraestructure.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Domain.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.csproj.AssemblyReference.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.AssemblyInfoInputs.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.AssemblyInfo.cs
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.GymApi.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.build.GymApi.Presentation.props
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GymApi.Presentation.props
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GymApi.Presentation.props
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\scopedcss\bundle\GymApi.Presentation.styles.css
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.csproj.CopyComplete
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\refint\GymApi.Presentation.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.genruntimeconfig.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Presentation\obj\Debug\net6.0\ref\GymApi.Presentation.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\appsettings.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.exe
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.deps.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.runtimeconfig.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Presentation.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Firebase.Auth.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Firebase.Storage.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Application.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Domain.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Application.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Infraestructure.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\bin\Debug\net6.0\GymApi.Domain.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.csproj.AssemblyReference.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.AssemblyInfoInputs.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.AssemblyInfo.cs
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.GymApi.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.build.GymApi.Presentation.props
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GymApi.Presentation.props
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GymApi.Presentation.props
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\scopedcss\bundle\GymApi.Presentation.styles.css
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.csproj.CopyComplete
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\refint\GymApi.Presentation.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\GymApi.Presentation.genruntimeconfig.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Presentation\obj\Debug\net6.0\ref\GymApi.Presentation.dll

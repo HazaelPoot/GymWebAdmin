@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Horario</title>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="ModalHorario" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        {{ add ? 'Agregar Horario' : 'Editar Horario' }}
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputDiaSemana" class="form-label">Dia de la Semana</label>
+                            <select [(ngModel)]="horarioModel.diaSemana" name="diaSemana" [disabled]="!add" class="form-select">
+                                <option value="" selected>Selecciona un día</option>
+                                <option value="Lunes">Lunes</option>
+                                <option value="Martes">Martes</option>
+                                <option value="Miércoles">Miércoles</option>
+                                <option value="Jueves">Jueves</option>
+                                <option value="Viernes">Viernes</option>
+                                <option value="Sábado">Sábado</option>
+                                <option value="Domingo">Domingo</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputNombre" class="form-label">Hora de Apertura</label>
+                            <input name="horaInicio" [(ngModel)]="horarioModel.horaInicio" type="time" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputNombre" class="form-label">Hora de Cierre</label>
+                            <input name="horaFin" [(ngModel)]="horarioModel.horaFin" type="time" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" (click)="add ? btnGuardar() : btnActualizar()">
+                        {{ add ? 'Agregar' : 'Actualizar' }}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

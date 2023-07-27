@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susucripciones</title>
+</head>
+<body>
+  <div class="card">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h5 class="card-title fw-semibold mb-4">Suscripciones</h5>
+        <button class="btn btn btn-success m-1" data-bs-toggle="modal" data-bs-target="#ModalSuscripcion">
+          Agregar <i class="ti ti-circle-plus"></i>
+        </button>
+      </div>
+      <p class="mb-0">Aqui puedes ver las Suscripciones a los servicios de tu Gimnasio y tambien puedes darlos de alta,
+        o bien, ellos pueden hacerlo desde la App</p>
+      <br>
+      <app-modalsuscripcion></app-modalsuscripcion>
+      <div class="table-responsive">
+        <table class="table text-center">
+          <thead class="text-dark">
+            <tr>
+              <th>
+                <h6 class="fw-semibold">Nombres</h6>
+              </th>
+              <th>
+                <h6 class="fw-semibold">Apellidos</h6>
+              </th>
+              <th>
+                <h6 class="fw-semibold">Servicio</h6>
+              </th>
+              <th>
+                <h6 class="fw-semibold">Fecha de pago</h6>
+              </th>
+              <th>
+                <h6 class="fw-semibold">Monto</h6>
+              </th>
+              <th>
+                <h6 class="fw-semibold">Pago</h6>
+              </th>
+              <th>
+                <h6 class="fw-semibold">Acciones</h6>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Dinamico -->
+            <tr *ngFor="let item of suscripciones" [ngClass]="{'bg-warning': item.clasePago === 'noPago'}">
+              <td>
+                <h6 class="fw-normal">{{item.nombre}}</h6>
+              </td>
+              <td>
+                <h6 class="fw-normal">{{item.apellido}}</h6>
+              </td>
+              <td>
+                <h6 class="fw-normal">{{item.nombreServicio}}</h6>
+              </td>
+              <td>
+                <h6 class="fw-normal">{{item.fechaPago}}</h6>
+              </td>
+              <td>
+                <h6 class="fw-normal">${{item.montoPagar}}</h6>
+              </td>
+              <td class="p-2">
+                <select class="form-select" [(ngModel)]="item.pago">
+                  <option [ngValue]="0">Pendiente</option>
+                  <option [ngValue]="1">Pagado</option>
+                </select>
+              </td>
+              <td class="p-0">
+                <div class="d-inline">
+                  <button class="btn btn-primary m-2" (click)="btnCambiarPago(item)">
+                    <i class="ti ti-circle-check"></i>
+                  </button>
+                  <button class="btn btn-danger" (click)="btnDelete(item.idInscripcion)">
+                    <i class="ti ti-trash-x"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <app-spinner></app-spinner>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Contraseña</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 32%;">
+            <div class="card-body">
+                <h5 class="card-title fw-semibold mb-4 text-center">Cambiar Contraseña</h5>
+                <p class="mb-0">Aqui puedes cambiar tu Contraseña</p>
+                <br>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Contraseña Actual</label>
+                        <input name="claveActual" [(ngModel)]="passModel.claveActual" type="password" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Contraseña Nueva</label>
+                        <div class="password-input">
+                            <input name="claveNueva" [(ngModel)]="passModel.claveNueva" class="form-control" type="password">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Confirmar Contraseña</label>
+                        <div class="password-input">
+                            <input name="confirmClave" [(ngModel)]="confirmClave" class="form-control" type="{{ showPassword ? 'text' : 'password' }}">
+                            <i class="{{ showPassword ? 'ti ti-eye-off' : 'ti ti-eye' }}" (click)="btnShowPassword()"></i>
+                        </div>
+                    </div>
+                    <app-spinner></app-spinner>
+                    <div class="mb-3">
+                        <br>
+                        <button (click)="btnConfirmar()" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Confirmar</button>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

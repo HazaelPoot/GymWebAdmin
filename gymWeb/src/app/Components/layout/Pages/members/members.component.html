@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miembros</title>
+</head>
+<body>
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 80%;">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <h5 class="card-title fw-semibold mb-4">Miembros</h5>
+                    <button class="btn btn btn-success m-1" data-bs-toggle="modal" data-bs-target="#ModalMiembro">
+                        Agregar <i class="ti ti-circle-plus"></i>
+                    </button>
+                </div>
+                <p class="mb-0">Aqui puedes ver los usuarios que son miembros de tu Gimnasio y tambien puedes darlo de alta, o bien, ellos pueden hacerlo desde la App</p>
+                <app-modalmiembro></app-modalmiembro>
+                <br>
+                <div class="table-responsive">
+                    <table class="table text-center">
+                      <thead class="text-dark">
+                        <tr>
+                          <th>
+                            <h6 class="fw-semibold">Id</h6>
+                          </th>
+                          <th>
+                            <h6 class="fw-semibold">Nombre</h6>
+                          </th>
+                          <th>
+                            <h6 class="fw-semibold">Apellido</h6>
+                          </th>
+                          <th>
+                            <h6 class="fw-semibold">Contacto</h6>
+                          </th>
+                          <th>
+                            <h6 class="fw-semibold">Inscripcion</h6>
+                          </th>
+                          <th>
+                            <h6 class="fw-semibold">Acciones</h6>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- Dinamico -->
+                        <tr *ngFor="let item of miembros">
+                          <td>
+                              <h6 class="fw-normal">{{item.idMiembro}}</h6>
+                          </td>
+                          <td>
+                            <h6 class="fw-normal">{{item.nombre}}</h6>
+                          </td>
+                          <td>
+                              <h6 class="fw-normal">{{item.apellido}}</h6>                       
+                          </td>
+                          <td>
+                            <h6 class="fw-normal">{{item.contacto}}</h6>
+                          </td>
+                          <td>
+                            <h6 class="fw-normal">{{item.fechaInscripcion}}</h6>
+                          </td>
+                          <td class="p-0">
+                                <button (click)="btnDelete(item.idMiembro)" class="btn btn-danger mt-2">
+                                  <i class="ti ti-trash-x"></i>
+                                </button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <app-spinner></app-spinner>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0C27qcm7SNWB5lz1g3RGnA21nPyRxwFK7DkMyoHQ1Dc=",
+  "Source": "GymApi.Presentation",
+  "BasePath": "_content/GymApi.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

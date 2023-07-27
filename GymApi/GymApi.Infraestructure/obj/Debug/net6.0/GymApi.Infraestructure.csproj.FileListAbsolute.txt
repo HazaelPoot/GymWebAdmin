@@ -1,0 +1,38 @@
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Infraestructure.deps.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Infraestructure.runtimeconfig.json
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Infraestructure.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Application.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Domain.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Domain.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Application.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.AssemblyInfo.cs
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.csproj.CopyComplete
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\refint\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.pdb
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.genruntimeconfig.cache
+C:\Users\Hazael_Poot\Desktop\UTM\9A IDGS\DESARROLLO WEB\GYMPROJECT\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\ref\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Infraestructure.deps.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Infraestructure.runtimeconfig.json
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Infraestructure.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Application.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Domain.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Domain.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\bin\Debug\net6.0\GymApi.Application.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.AssemblyInfo.cs
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.csproj.CopyComplete
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\refint\GymApi.Infraestructure.dll
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.pdb
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\GymApi.Infraestructure.genruntimeconfig.cache
+C:\Users\Hazael_Poot\Desktop\GymApi\GymApi.Infraestructure\obj\Debug\net6.0\ref\GymApi.Infraestructure.dll

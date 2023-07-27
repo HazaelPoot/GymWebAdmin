@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador</title>
+</head>
+<body>
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 32%;">
+            <div class="card-body">
+                <h5 class="card-title fw-semibold mb-4 text-center">Validar Miembro</h5>
+                <p class="mb-0">Aqui puedes validar si el miembro puede acceder al Gimnasio.</p>
+                <p class="mb-0">Ingresa algun dato para la validación.</p>
+                <br>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nombre o Clave de Acceso</label>
+                        <input [(ngModel)]="nombre" name="nombre" type="text" class="form-control">
+                    </div>
+                    <app-spinner></app-spinner>
+                    <div class="mb-3">
+                        <br>
+                        <button (click)="btnValidar()" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">
+                            Buscar
+                        </button>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
