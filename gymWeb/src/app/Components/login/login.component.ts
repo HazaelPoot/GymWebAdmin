@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit {
 
   confirmAuth(){
     if(this.idGym != null){
-      this.router.navigate(['/Pages/Information']);
+      this.router.navigate(['/Pages/Dashboard']);
     }
   }
 
@@ -53,7 +53,7 @@ export class LoginComponent implements OnInit {
           if(res.status == true){
             this.idGym = res.object.idGimnasio;
             this.sessionService.guardarSession(this.idGym);
-            this.router.navigate(['/Pages/Information']);
+            this.router.navigate(['/Pages/Dashboard']);
           }
           else{
             this.swal.swalOops(res.message);

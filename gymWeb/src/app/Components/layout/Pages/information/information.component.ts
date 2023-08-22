@@ -17,7 +17,7 @@ export class InformationComponent implements OnInit {
   
   public logoGym: any = [];
   public idGym: number;
-  
+  public nombreFoto: string = '';
   public gymModel: Gimnasio = {
     idGimnasio: 0,
     nombre: '',
@@ -27,6 +27,7 @@ export class InformationComponent implements OnInit {
     correo: '',
     passw: '',
     urlImagen: '',
+    nombreFoto: '',
   };
 
   constructor(
@@ -48,23 +49,21 @@ export class InformationComponent implements OnInit {
     this.gymService.obtainGym(this.idGym).subscribe({
       next: (res) => {
         this.gymModel = res.object;
+        this.nombreFoto = res.object.nombreFoto;
         this.loadingService.setLoading(false);
       }
     })
   }
 
   btnGuardar(){
-    if (Object.values(this.gymModel).some(value => value === '')) {
-      this._swal.swalValidator();
-    }
-    else{
+    if (this.verificarCamposVacios()) {
       Swal.fire({
         icon: 'question',
         title: 'Confirmación',
         text: '¿Estás seguro de actualizar tu información?',
         showCancelButton: true,
         confirmButtonText: 'Sí',
-        cancelButtonText: 'No'
+        cancelButtonText: 'No',
       }).then((result) => {
         if (result.isConfirmed) {
           this.saveProfile();
@@ -98,12 +97,27 @@ export class InformationComponent implements OnInit {
     })
   }
 
+  capitalizarLetra(cadena: string) {
+    return cadena.charAt(0).toUpperCase() + cadena.slice(1);
+  }
+
+  verificarCamposVacios() {
+    const campos = Object.keys(this.gymModel) as (keyof Gimnasio)[];
+    for (const campo of campos) {
+      if (campo !== 'urlImagen' && campo !== 'nombreFoto' && this.gymModel[campo] === '') {
+        const campoVacio = this.capitalizarLetra(campo);
+        this._swal.swalValidatorMessage(campoVacio);
+        return false;
+      }
+    }
+    return true;
+  }
+
   capturarPhoto(event: any){
     const fotoCapturada = event.target.files[0];
     this.previewService.base64Preview(fotoCapturada).then((imagen: any) =>{
       this.gymModel.urlImagen = imagen.base;
     })
     this.logoGym.push(fotoCapturada);
-    console.log(fotoCapturada);
   }
 }

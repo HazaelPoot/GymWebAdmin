@@ -7,4 +7,5 @@ export interface Gimnasio {
   correo: string;
   passw: string;
   urlImagen: string;
+  nombreFoto: string,
 }

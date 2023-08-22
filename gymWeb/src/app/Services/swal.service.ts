@@ -75,6 +75,14 @@ export class SwalService {
     });
   }
 
+  swalValidatorMessage(text: string){
+    Swal.fire({
+      icon: 'warning',
+      title: 'Atención',
+      text: `Debe completar el campo ${text}`
+    });
+  }
+
   swalPassword(){
     Swal.fire({
       icon: 'warning',

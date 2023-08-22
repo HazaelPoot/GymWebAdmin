@@ -2,7 +2,6 @@ import { SuscripcionService } from 'src/app/Services/suscripcion.service';
 import { Susucripcion } from 'src/app/Interfaces/suscripcion.interface';
 import { SessionService } from 'src/app/Services/session.service';
 import { LoaderService } from 'src/app/Services/loader.service';
-import { ModalService } from 'src/app/Services/modal.service';
 import { SwalService } from 'src/app/Services/swal.service';
 import { Component, OnInit } from '@angular/core';
 import Swal from 'sweetalert2';
@@ -35,7 +34,6 @@ export class SubscriptionsComponent implements OnInit {
     private suscService: SuscripcionService,
     private sessionService: SessionService,
     private loadingService: LoaderService,
-    private modalService: ModalService,
     private _swal: SwalService
   ) {
     this.idGym = this.sessionService.obtenerSession();

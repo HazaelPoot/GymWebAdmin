@@ -21,6 +21,7 @@ export class LayoutComponent implements OnInit {
     correo: '',
     passw: '',
     urlImagen: '',
+    nombreFoto: '',
   };
   
   constructor(

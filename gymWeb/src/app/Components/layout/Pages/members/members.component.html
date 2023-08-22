@@ -38,6 +38,9 @@
                             <h6 class="fw-semibold">Inscripcion</h6>
                           </th>
                           <th>
+                            <h6 class="fw-semibold">Correo</h6>
+                          </th>
+                          <th>
                             <h6 class="fw-semibold">Acciones</h6>
                           </th>
                         </tr>
@@ -59,6 +62,9 @@
                           </td>
                           <td>
                             <h6 class="fw-normal">{{item.fechaInscripcion}}</h6>
+                          </td>
+                          <td>
+                            <h6 class="fw-normal">{{item.correo}}</h6>
                           </td>
                           <td class="p-0">
                                 <button (click)="btnDelete(item.idMiembro)" class="btn btn-danger mt-2">

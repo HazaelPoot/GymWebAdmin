@@ -22,7 +22,7 @@
                             <label for="inputMiembro" class="form-label">Miembro</label>
                             <select [(ngModel)]="suscripModel.idMiembro" name="idMiembro" class="form-select">
                                 <option value="0" selected>Selecciona un miembro</option>
-                                <option *ngFor="let item of miembros" [ngValue]="item.idMiembro">{{item.nombre}}</option>
+                                <option *ngFor="let item of miembros" [ngValue]="item.idMiembro">{{item.nombre}} {{item.apellido}}</option>
                             </select>
                         </div>
                         <div class="col-md-6">

@@ -4,6 +4,7 @@ export interface Miembro {
   nombre: string;
   apellido: string;
   contacto: string;
+  correo: string;
   fechaInscripcion: string;
   idGimnasio: number;
   nombreGimnasio: string;

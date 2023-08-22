@@ -889,6 +889,17 @@ progress {
     margin-top: var(--bs-gutter-y)
 }
 
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.no-gutters>.col,
+.no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0
+}
+
 .col {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 0%;
@@ -12413,6 +12424,70 @@ fieldset:disabled .btn {
     -webkit-user-select: all !important;
     -moz-user-select: all !important;
     user-select: all !important
+}
+
+.border-left-primary {
+    border-left: .25rem solid #4e73df !important
+}
+
+.border-bottom-primary {
+    border-bottom: .25rem solid #4e73df !important
+}
+
+.border-left-secondary {
+    border-left: .25rem solid #49BEFF !important
+}
+
+.border-bottom-secondary {
+    border-bottom: .25rem solid #49BEFF !important
+}
+
+.border-left-success {
+    border-left: .25rem solid #1cc88a !important
+}
+
+.border-bottom-success {
+    border-bottom: .25rem solid #1cc88a !important
+}
+
+.border-left-info {
+    border-left: .25rem solid #539BFF !important
+}
+
+.border-bottom-info {
+    border-bottom: .25rem solid #539BFF !important
+}
+
+.border-left-warning {
+    border-left: .25rem solid #f6c23e !important
+}
+
+.border-bottom-warning {
+    border-bottom: .25rem solid #f6c23e !important
+}
+
+.border-left-danger {
+    border-left: .25rem solid #e74a3b !important
+}
+
+.border-bottom-danger {
+    border-bottom: .25rem solid #e74a3b !important
+}
+
+.border-left-light {
+    border-left: .25rem solid #f8f9fc !important
+}
+
+.border-bottom-light {
+    border-bottom: .25rem solid #f8f9fc !important
+}
+
+.border-left-dark {
+    border-left: .25rem solid #5a5c69 !important
+}
+
+.border-bottom-dark {
+    border-bottom: .25rem solid #5a5c69 !important
 }
 
 .user-select-auto {

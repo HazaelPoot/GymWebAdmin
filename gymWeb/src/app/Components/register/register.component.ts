@@ -31,6 +31,7 @@ export class RegisterComponent implements OnInit {
     correo: '',
     passw: '',
     urlImagen: '',
+    nombreFoto: '',
   };
 
   constructor(
@@ -46,13 +47,11 @@ export class RegisterComponent implements OnInit {
   }
 
   btnRegistrar(){
-    if (Object.entries(this.gymModel).some(([key, value]) => key !== 'urlImagen' && value === '')) {
-      this.swal.swalValidator();
-    }
-    else if(this.gymModel.passw != this.confirmPass){
+    console.log(this.gymModel)
+    if (this.gymModel.passw != this.confirmPass){
       this.swal.swalPassword();
     }
-    else{
+    else if(this.verificarCamposVacios()){
       Swal.fire({
         icon: 'question',
         title: 'Confirmación',
@@ -84,7 +83,7 @@ export class RegisterComponent implements OnInit {
           this.swal.swalRegister(res.message);
           this.idGym = res.object.idGimnasio;
           this.sessionService.guardarSession(this.idGym);
-          this.router.navigate(['/Pages/Information']);
+          this.router.navigate(['/Pages/Dashboard']);
         }
         else if(res.status == false){
           this.swal.swalOops(res.message);
@@ -96,13 +95,28 @@ export class RegisterComponent implements OnInit {
     });
   }
 
+  capitalizarLetra(cadena: string) {
+    return cadena.charAt(0).toUpperCase() + cadena.slice(1);
+  }
+
+  verificarCamposVacios() {
+    const campos = Object.keys(this.gymModel) as (keyof Gimnasio)[];
+    for (const campo of campos) {
+      if (campo !== 'urlImagen' && campo !== 'nombreFoto' && this.gymModel[campo] === '') {
+        const campoVacio = this.capitalizarLetra(campo);
+        this.swal.swalValidatorMessage(campoVacio);
+        return false;
+      }
+    }
+    return true;
+  }
+
   capturarPhoto(event: any){
     const fotoCapturada = event.target.files[0];
     this.previewServie.base64Preview(fotoCapturada).then((imagen: any) =>{
       this.previsualizacion = imagen.base;
     })
     this.logoGym.push(fotoCapturada);
-    console.log(fotoCapturada);
   }
 
   btnShowPassword() {
