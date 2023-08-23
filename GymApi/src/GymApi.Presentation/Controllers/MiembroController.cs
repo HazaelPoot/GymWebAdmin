@@ -68,6 +68,7 @@ namespace GymApi.Presentation.Controllers
             return StatusCode(StatusCodes.Status201Created, gResponse);
         }
 
+        //PENDIENTE PROBAR
         [HttpPost]
         [Route("Membresia")]
         public async Task<IActionResult> Membresia([FromBody] DtoMiembro dto)
