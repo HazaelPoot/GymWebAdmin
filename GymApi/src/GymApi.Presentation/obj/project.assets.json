@@ -7828,11 +7828,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Presentation\\GymApi.Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Presentation\\GymApi.Presentation.csproj",
       "projectName": "GymApi.Presentation",
-      "projectPath": "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Presentation\\GymApi.Presentation.csproj",
+      "projectPath": "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Presentation\\GymApi.Presentation.csproj",
       "packagesPath": "C:\\Users\\Hazael_Poot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Presentation\\obj\\",
+      "outputPath": "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hazael_Poot\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7850,11 +7850,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Application\\GymApi.Application.csproj": {
-              "projectPath": "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Application\\GymApi.Application.csproj"
+            "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Application\\GymApi.Application.csproj": {
+              "projectPath": "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Application\\GymApi.Application.csproj"
             },
-            "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Infraestructure\\GymApi.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Infraestructure\\GymApi.Infraestructure.csproj"
+            "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Infraestructure\\GymApi.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Infraestructure\\GymApi.Infraestructure.csproj"
             }
           }
         }

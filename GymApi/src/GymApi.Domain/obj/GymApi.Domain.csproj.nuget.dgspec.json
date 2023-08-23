@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Domain\\GymApi.Domain.csproj": {}
+    "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Domain\\GymApi.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Domain\\GymApi.Domain.csproj": {
+    "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Domain\\GymApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Domain\\GymApi.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Domain\\GymApi.Domain.csproj",
         "projectName": "GymApi.Domain",
-        "projectPath": "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Domain\\GymApi.Domain.csproj",
+        "projectPath": "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Domain\\GymApi.Domain.csproj",
         "packagesPath": "C:\\Users\\Hazael_Poot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hazael_Poot\\Desktop\\GymApi\\src\\GymApi.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Hazael_Poot\\Desktop\\UTM\\9A IDGS\\DESARROLLO WEB\\GYMPROJECT\\GymApi\\src\\GymApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hazael_Poot\\AppData\\Roaming\\NuGet\\NuGet.Config",
